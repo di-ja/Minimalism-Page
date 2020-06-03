@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+    font-size: 16px;
+}
+header {
+    margin: 0;
+    height: 5.4vh;
+    width: 100%;
+    background: #070707;
+    position: relative;
+    border-bottom: 1px solid #6e6864;
+}
+main {
+    margin: 0;
+    padding: 0;
+    height: 94.6vh;
+    width: 100%;
+    background: #070707;
+    position: absolute;
+    border-bottom: 1px solid #6e6864;
+}
+h1 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    position: absolute;
+    top: 4px;
+    left: 5%;
+    color: #6e6864;
+}
+main section article h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.6em;
+    color: #9d9f9f;
+    position: absolute;
+    top: 36vh;
+    left: 5%;
+    width: 40%;
+}
+
+main section article p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #ac8059;
+    position: absolute;
+    bottom: 40vh;
+    left: 5%;
+    width: 40%;
+}
+
+header nav a:nth-child(5) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 0px;
+    text-decoration: none;
+    color: #6e6864;
+    width: 6em;
+}
+header nav a:nth-child(4) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 6em;
+    text-decoration: none;
+    color: #6e6864;
+    width: 6em;
+}
+header nav a:nth-child(3) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 12rem;
+    text-decoration: none;
+    color: #6e6864;
+    width: 6em;
+}
+header nav a:nth-child(2) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 18em;
+    text-decoration: none;
+    color: #6e6864;
+    width: 6em;
+}
+header nav a:nth-child(1) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 12%;
+    text-decoration: none;
+    color: #6e6864;
+    width: 8em;
+}
+header nav a:hover {
+    color: white;
+}
+main section article div:nth-of-type(1) {
+    background: url(https://i.pinimg.com/736x/46/5d/71/465d7140a2cac9b6ea78feabd5000669--grey-interior-design-dark-grey-interior.jpg) center/cover no-repeat;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    width: 18%;
+    height: 80vh;
+}
+main section article div:nth-of-type(2) {
+    background: url(https://i.pinimg.com/originals/cb/a2/12/cba212eed69977e8935c472cccd2a0d6.jpg) center/cover no-repeat;
+    position: absolute;
+    top: 3vh;
+    right: 20%;
+    width: 18%;
+    height: 80vh;
+}
+main section article div:nth-of-type(3) {
+    background: url(https://www.digsdigs.com/photos/2016/10/dark-alluring-bedroom-with-very-simple-and-minimalist-decor.jpg) center/cover no-repeat;
+    position: absolute;
+    top: 3vh;
+    right: 40%;
+    width: 18%;
+    height: 80vh;
+}
+main section article div span {
+    position: absolute;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: white;
+    left: 0.7em;
+    top: 76.5vh;
+}
+footer a:nth-child(1) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    bottom: 2.5em;
+    left: 5%;
+    text-decoration: none;
+    color: #6e6864;
+    width: 3em;
+}
+footer a:nth-child(2) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    bottom: 2.5em;
+    left: 10%;
+    text-decoration: none;
+    color: #6e6864;
+    width: 3em;
+}
+footer a:nth-child(3) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    bottom: 2.5em;
+    left: 15%;
+    text-decoration: none;
+    color: #6e6864;
+    width: 3em;
+}
+footer a:nth-child(4) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    bottom: 2.2em;
+    right: 100px;
+    text-decoration: none;
+    color: #6e6864;
+    width: 30px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 8px 6px 0px;
+    border: 1px solid #ac8059;
+}
+footer a:nth-child(5) {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    bottom: 2.2em;
+    right: 40px;
+    text-decoration: none;
+    color: #6e6864;
+    width: 30px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 8px 6px 0px;
+    border: 1px solid #ac8059;
+}
+footer a:hover {
+    color: white;
+}
+footer a:hover:nth-of-type(4) {
+    color: white;
+    border: 1px solid white;
+}
+footer a:hover:nth-of-type(5) {
+    color: white;
+    border: 1px solid white;
+}
